@@ -7,11 +7,547 @@
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-    <!-- Script JS -->
-    <script src="./public/js/main.js"></script>
+    <header id="header">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white pb-4">
+            <button id="toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <div class="collapse navbar-collapse d-flex flex-column justify-content-center align-items-center" id="navbarNavDropdown">
+              <h1 id="emporium" class="text-lowercase mb-5">emporium.</h1>
+              <ul class="navbar-nav d-flex justify-content-center align-items-center mt-3">
+                    <li id="emporium2" class="d-none"><a href=""><h1 id="h1" class="text-dark">emporium.</h1></a></li>
+                    <li><a href=""><span class="titre text-uppercase text-dark">home</span></a></li>
+                    <li><a href=""><span class="titre text-uppercase text-dark">product</span></a></li>
+                    <li><a href=""><span class="titre text-uppercase text-dark">blog</span></a></li>
+                    <li><a href=""><span class="titre text-uppercase text-dark">elements</span></a></li>
+                    <li><a href=""><span class="titre text-uppercase text-dark">about</span></a></li>
+                    <li><a href=""><span class="titre text-uppercase text-dark">contact</span></a></li>
+                    <li>
+                        <a href="" class="d-flex align-items-center">
+                            <button id="white" class="mr-2"></button>
+                            <button id="black" class="mr-2"></button>
+                            <button id="connexion"><span class="text-uppercase text-white">connexion</span></button>
+
+                        </a>
+                    </li>
+               
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <section class="section1" id="section1">
+        <div class="container d-flex flex-wrap">
+            <div class="col-7 col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 d-flex flex-column justify-content-center pt-5 mb-5">
+                <h1 class="mt-5 mb-3">shop at</h1>
+                <img class="mb-3" src="./public/img/logo.png" alt="">
+                <p>A wonderful serenity has taken possession of my my entire soul, like these sweet mornings of spring which I enjoy with my.</p>
+                <button class="bg-danger mb-5"><a href=""><span class="text-white text-uppercase">sale items</span></a></button>
+    
+            </div>
+            <div class="col-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 d-flex justify-content-center align-items-center">
+                <img src="./public/img/slider-1.jpg" alt="">
+    
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center mb-5">
+                <div id="formulaire" class="formulaire d-none">
+                    <div class="row d-flex justify-content-end">
+                        <a id="fermer" href="" class="text-center"><i class="fas fa-times mt-3"></i></a>
+                    </div>
+                    <div class="row d-flex flex-wrap justify-content-center">
+                        <div id="part1" class="col-6 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column">
+                            <button id="sign" class="bg-white border-0 mt-5"><h1>SIGN UP</h1></button>
+                            <hr>
+                            <input id="input2" type="text" placeholder="Email Address" class="">
+                            <input id="input3" type="text" placeholder="Password" class="mt-3">
+                            <button id="btn2" class="bg-info border-0 mt-3 mr-auto"><span class="text-white">Sign Up</span></button>
+                            <hr id="hr1" class="mt-4 mb-4">
+                            <button id="btn3" class="bg-danger">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <i class="fab fa-google text-white mr-2"></i>
+                                    <span class="text-white">Connect with Google</span>
+                                </div>
+
+                            </button>
+                            <button id="btn4" class="bg-primary mt-2 mb-5">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <i class="fab fa-facebook-f text-white mr-2"></i>
+                                    <span class="text-white">Connect with Facebook</span>
+                                </div>
+
+                            </button>
+                        </div>
+                        <div id="part2" class="col-6 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column pb-5">
+                            <button id="register" class="bg-white border-0 mt-5"><h1>REGISTER</h1></button>
+                            <hr>
+                            <div class="row d-none" id="row1">
+                                <div class="col-6 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <input class="b" type="text" placeholder="First Name">
+
+                                </div>
+                                <div class="col-6 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <input class="a" type="text" placeholder="Last Name">
+
+                                </div>
+
+                            </div>
+                            <input id="input1" class="mt-3 d-none" type="text" placeholder="Email Address">
+                            <div id="row2" class="row d-none mt-3 mb-3">
+                                <div class="col-6 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <input class="c" type="text" placeholder="Password">
+
+                                </div>
+                                <div class="col-6 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <input class="d" type="text" placeholder="Confirm Password">
+
+                                </div>
+
+                            </div>
+                            <button id="btn1" class="bg-info d-none"><span class="text-white">Register</span></button>
+
+                        </div>
+
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+    </section>
+    <section id="section2" class="section2 bg-white">
+        <div id="" class="row d-flex flex-wrap pb-5 justify-content-center">
+            <div id="img1" class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 d-flex justify-content-center align-items-center">
+                
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <img src="./public/img/services/service-1.jpg" alt="">
+                    <h1 class="text-white text-capitalize">living room</h1>
+                    <hr class="mt-0">
+
+                </div>
+                
+                
+            </div>
+            <div id="img2" class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <img src="./public/img/services/service-2.jpg" alt="">
+                    <h1 class="text-white text-capitalize">sale items</h1>
+                    <hr class="mt-0">
+
+                </div>
+            </div>
+            <div id="img3" class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <img src="./public/img/services/slider-3.jpg" alt="">
+                    <h1 class="text-white text-capitalize">clothes</h1>
+                    <hr class="mt-0">
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="section3" class="section3 bg-white">
+        <div class="row d-flex justify-content-center">
+            <h2 id="recent" class="text-capitalize mt-5">recents products</h2>
+
+        </div>
+        <div class="row-1 d-flex flex-wrap mt-5 pb-5 justify-content-center">
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                        </div>
+                        <span id="cards1" class="text-capitalize mt-4 text-dark">Luxury sofa</span>
+                        <span class="text-danger mt-3">$600.00</span>
+                        
+    
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-gloves.jpg" alt="">
+                        </div>
+                        <div class="banane">
+                            <button class="dark"></button>
+                            <button class="red"></button>
+                        </div>
+                        <div class="row d-flex">
+                           <div class="col-6 d-flex justify-content-center align-items-center">
+                               <button class="bg-danger text-white text-uppercase mt-4">sale!</button>
+                           </div>
+                           <div class="col-6 d-flex flex-column justify-content-center align-items-start px-0">
+                            <span id="cards2" class="text-capitalize mt-4 text-dark">Leather Gloves</span>
+                            <div class="row d-flex justify-content-start mx-0 align-items-center">
+                                <del class="mt-3 mr-1"><span class="text-secondary">$27.00</span></del>
+                                <span class="text-danger mt-3 ml-1">$27.00</span>
+
+                            </div>
+
+                           </div>
+                        </div>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-cups.jpg" alt="">
+                        </div>
+                        <span id="cards3" class="text-capitalize mt-4 text-dark">colorful bowl</span>
+                        <span class="text-danger mt-3">$18.00</span>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-bag.jpg" alt="">
+                        </div>
+                        <div class="row d-flex">
+                           <div class="col-6 d-flex justify-content-center align-items-center">
+                               <button class="bg-danger text-white text-uppercase mt-4">sale!</button>
+                           </div>
+                           <div class="col-6 d-flex flex-column justify-content-center align-items-start px-0">
+                            <span id="cards4" class="text-capitalize mt-4 text-dark">women bag</span>
+                            <div class="row d-flex mx-0 justify-content-start align-items-center">
+                                <del class="mt-3 mr-1"><span class="text-secondary">$420.00</span></del>
+                                <span class="text-danger mt-3">$350.00</span>
+
+                            </div>
+
+                           </div>
+                        </div>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img  src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                        </div>
+                        <span id="cards5" class="text-capitalize mt-4 text-dark">minimal t-shirt</span>
+                        <span class="text-danger mt-3">$15.00</span>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-plates.jpg" alt="">
+                        </div>
+                        <span id="cards6" class="text-capitalize mt-4 text-dark">plates set</span>
+                        <span class="text-danger mt-3">$30.00</span>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 mb-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                        </div>
+                        <span id="cards7" class="text-capitalize mt-4 text-dark">modern-sofa</span>
+                        <span class="text-danger mt-3">$900.00</span>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 mb-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-bed.jpg" alt="">
+                        </div>
+                        <span id="cards8" class="text-capitalize mt-4 text-dark">bed linen</span>
+                        <span class="text-danger mt-3">$79.00</span>
+    
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col-4 mb-5 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="magie">
+                            <img src="./public/img/products_mini/product-shoes.jpg" alt="">
+                        </div>
+                        <span id="cards9" class="text-capitalize mt-4 text-dark">minimal shoes</span>
+                        <span class="text-danger mt-3">$60.00</span>
+    
+                    </div>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section4 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-white text-center mb-4">Discover Thousands Of Great Products</h1>
+        <button class="bg-danger"><span class="text-white text-uppercase">learn more</span></button>
+
+    </section>
+    <section id="section5" class="section5 d-flex flex-column justify-content-center align-items-center bg-white">
+        <h2 id="hot" class="text-uppercase text-center">Hot Fashion Products</h2>
+        <div class="thumbnail-slider">
+            <div class="thumbnail-container">
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <span id="a" class="text-capitalize mt-4">luxury sofa</span>
+                    <span class="text-danger mt-4">$600.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-gloves.jpg" alt="">
+                    <div class="row d-flex">
+                        <div class="col-6 p-0 d-flex align-items-center mt-2">
+                            <button class="bg-danger mt-4"><span class="text-white text-uppercase">sale!</span></button>
+                        </div>
+                        <div class="col-6 d-flex flex-column p-0 align-items-start">
+                            <span id="b" class="text-capitalize mt-4">leather gloves</span>
+                            <div class="row d-flex mt-4 mx-0 justify-content-start">
+                                <del class="text-secondary">$34.00</del>
+                                <span class="text-danger ml-1">$27.00</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-cups.jpg" alt="">
+                    <span id="c" class="text-capitalize mt-4">colorful bowl</span>
+                    <span class="text-danger mt-4">$18.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-bag.jpg" alt="">
+                    <div class="row d-flex">
+                        <div class="col-6 p-0 d-flex align-items-center mt-2">
+                            <button class="bg-danger mt-4"><span class="text-white text-uppercase">sale!</span></button>
+                        </div>
+                        <div class="col-6 d-flex flex-column p-0 align-items-start">
+                            <span id="d" class="text-capitalize mt-4">women bag</span>
+                            <div class="row d-flex mt-4 mx-0 justify-content-start">
+                                <del class="text-secondary">$420.00</del>
+                                <span class="text-danger ml-1">$350.00</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                    <span id="z" class="text-capitalize mt-4">minimal t-shirt</span>
+                    <span class="text-danger mt-4">$15.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-plates.jpg" alt="">
+                    <span id="f" class="text-capitalize mt-4">plates set</span>
+                    <span class="text-danger mt-4">$30.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                    <span id="g" class="text-capitalize mt-4">modern-sofa</span>
+                    <span class="text-danger mt-4">$900.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-bed.jpg" alt="">
+                    <span id="h" class="text-capitalize mt-4">bed linen</span>
+                    <span class="text-danger mt-4">$79.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-shoes.jpg" alt="">
+                    <span id="i" class="text-capitalize mt-4">minimal shoes</span>
+                    <span class="text-danger mt-4">$60.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <span id="j" class="text-capitalize mt-4">luxury sofa</span>
+                    <span class="text-danger mt-4">$600.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-gloves.jpg" alt="">
+                    <div class="row d-flex">
+                        <div class="col-6 p-0 d-flex align-items-center mt-2">
+                            <button class="bg-danger mt-4"><span class="text-white text-uppercase">sale!</span></button>
+                        </div>
+                        <div class="col-6 d-flex flex-column p-0 align-items-start">
+                            <span id="k" class="text-capitalize mt-4">leather gloves</span>
+                            <div class="row d-flex mt-4 mx-0 justify-content-start">
+                                <del class="text-secondary ">$34.00</del>
+                                <span class="text-danger ml-1">$27.00</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-cups.jpg" alt="">
+                    <span id="l" class="text-capitalize mt-4">colorful bowl</span>
+                    <span class="text-danger mt-4">$18.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-bag.jpg" alt="">
+                    <div class="row d-flex">
+                        <div class="col-6 p-0 d-flex align-items-center mt-2">
+                            <button class="bg-danger mt-4"><span class="text-white text-uppercase">sale!</span></button>
+                        </div>
+                        <div class="col-6 d-flex flex-column p-0 align-items-start">
+                            <span id="m" class="text-capitalize mt-4">women bag</span>
+                            <div class="row d-flex mt-4 mx-0 justify-content-start">
+                                <del class="text-secondary">$420.00</del>
+                                <span class="text-danger ml-1">$350.00</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                    <span id="n" class="text-capitalize mt-4">minimal t-shirt</span>
+                    <span class="text-danger mt-4">$15.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-plates.jpg" alt="">
+                    <span id="o" class="text-capitalize mt-4">plates set</span>
+                    <span class="text-danger mt-4">$30.00</span>
+                </div>
+                <div class="item d-flex flex-column justify-content-center align-items-center">
+                    <img src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                    <span id="p" class="text-capitalize mt-4">modern-sofa</span>
+                    <span class="text-danger mt-4">$900.00</span>
+                </div>
+                
+            </div>
+
+            <!-- controls slides -->
+            <!-- <div class="controls">
+
+            </div>
+        </div>
+
+    </section>
+    <section id="section6" class="section6 bg-white">
+        <div class="row d-flex pb-5 flex-wrap justify-content-center align-items-center">
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mr-0 mb-3">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center mr-0">
+                        <i class="far fa-check-circle mb-5 mt-3"></i>
+                        <h3 class="text-uppercase text-center mb-5">trusted by 10,000+ customers</h3>
+                        <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus modi numquam harum dolorum aliquid. Qui quam velit suscipit, dolor soluta quod culpa quis quia molestiae vero repellendus assumenda recusandae.</p>
+                        <button class="mb-5 py-2"><span class="text-uppercase">learn more</span></button>
+                    </div>
+                </a>
+                
+
+            </div>
+            <div class="col-4 mr-0 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center mr-0">
+                        <i class="fas fa-paper-plane mb-5 mt-3"></i>
+                        <h3 class="text-uppercase mb-5">very fast shipping</h3>
+                        <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus modi numquam harum dolorum aliquid. Qui quam velit suscipit, dolor soluta quod culpa quis quia molestiae vero repellendus assumenda recusandae.</p>
+                        <button class="mb-5 py-2"><span class="text-uppercase">learn more</span></button>
+                    </div>
+                </a>
+            </div>
+            <div class="col-4 mr-0 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <a href="">
+                    <div class="d-flex flex-column justify-content-center align-items-center mr-0">
+                        <i class="far fa-check-circle mb-5 mt-3"></i>
+                        <h3 class="text-uppercase text-center mb-5">trusted by 10,000+ customers</h3>
+                        <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus modi numquam harum dolorum aliquid. Qui quam velit suscipit, dolor soluta quod culpa quis quia molestiae vero repellendus assumenda recusandae.</p>
+                        <button class="mb-5 py-2"><span class="text-uppercase">learn more</span></button>
+                    </div>
+                </a>
+                
+
+            </div>
+        </div>
+        
+    </section>
+    <footer class="footer1">
+        <div class="footer container d-flex flex-wrap justify-content-center">
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5 mb-4 d-flex flex-column justify-content-center align-items-start">
+                <span class="text-uppercase text-white mb-3">about us</span>
+                <span class="text-secondary mb-5">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of</span>
+
+            </div>
+            <div class="col-4 mb-4 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex flex-column justify-content-center align-items-start mt-5">
+                <span class="text-uppercase text-white mb-3">recents posts</span>
+                <span class="text-capitalize text-white mb-3">> hello world</span>
+                <span class="text-capitalize text-white mb-3">> wonderful serenity has taken</span>
+                <span class="text-capitalize text-white mb-3">> in my soul and absorb its power</span>
+                <span class="text-capitalize text-white mb-5">> i heard the buzz of the little</span>
+                
+            </div>
+            <div class="col-4 mb-4 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex flex-column justify-content-center align-items-start">
+                <span class="text-uppercase text-white mt-5 mb-1">tag cloud</span>
+                <div class="row d-flex mb-2">
+                    <button class="text-secondary px-2 py-1 mr-2">business</button>
+                    <button class="text-secondary px-2 py-1 mr-2">confidence</button>
+                    <button class="text-secondary px-2 py-1 mr-2">gadgets</button>
+                </div>
+                <div class="row d-flex mb-2">
+                    <button class="text-secondary px-2 py-1 mr-2">identity</button>
+                    <button class="text-secondary px-2 py-1 mr-2">logo</button>
+                    <button class="text-secondary px-2 py-1 mr-2">photography</button>
+                </div>
+                <div class="row d-flex mb-2">
+                    <button class="text-secondary px-2 py-1 mr-2">time</button>
+                    <button class="text-secondary px-2 py-1 mr-2">trips</button>
+                    <button class="text-secondary px-2 py-1 mr-2">works</button>
+                </div>
+                <div class="row d-flex mb-5">
+                    <button class="text-secondary px-2 py-1 mr-2">time</button>
+                   
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <div class="footer container">
+            <div  id="end" class="row d-flex justify-content-center align-items-center">
+                <span class="text-secondary text-uppercase">copyright 2020 goodlayers, all right reserved</span>
+    
+            </div>
+
+        </div>
+    </footer>
     <!-- Documentation Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+     <!-- Script JS -->
+     <script src="./public/js/main.js"></script>
 </body>
-</html>
+</html> -->

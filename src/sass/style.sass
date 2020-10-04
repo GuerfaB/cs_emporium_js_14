@@ -2,4 +2,622 @@
 @import "./_variables.sass"
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 @import "./_fonts.sass"
-@import "./_icons.sass"
+@import "./_icones.sass"
+
+body
+    font-family: "Poppins"
+    
+    header
+        
+        
+        .navbar
+            
+            
+            
+            
+            .collapse
+                h1
+                    font-family: "Poppins-Bold"
+                ul
+                    li
+                        margin-left: 35px
+                        margin-right: 35px
+                        a
+                            text-decoration: none
+                            
+                            #white
+                                width: 27px
+                                height: 27px
+                                background-color: white
+                                border-radius: 7px
+                            #black
+                                width: 27px
+                                height: 27px
+                                border-radius: 7px
+                                background-color: black
+                            #connexion
+                                height: 45px
+                                background-color: #6C757D
+                                border: none
+    .section1
+        background-color: #F3F3F3
+        position: relative
+        .container
+            position: relative
+            
+            .col-7
+                h1
+                    color: #DD4545
+                    font-size: 65px
+                img
+                    width: 95%
+                button
+                    width: 200px
+                    height: 60px
+                    border: none
+                    border-radius: 30px
+                    a
+                        text-decoration: none
+            .col-5
+                img
+                    width: 606px
+                    height: 724.5px
+            .col-12
+                .formulaire
+                    width: 100%
+                    height: auto
+                    background-color: white
+                    border-radius: 3rem
+                    position: absolute
+                    bottom: 100px
+                    .row
+                        a
+                            i
+                                color: #F3F3F3
+                                font-size: 30px
+                                margin-right: 40px
+                        #part1
+                            justify-content: center
+                            align-items: center
+                            border-right:  #F3F3F3 solid 2px
+                            margin-bottom: 48px
+                            hr
+                                width: 90%
+                                height: 1px
+                                background-color: #F3F3F3
+                                
+                               
+                            input
+                                width: 470px
+                                height: 45px
+                                border: #F3F3F3 solid 2px
+                            .bg-info
+                                width: 235px
+                                margin-left: 35px
+                                height: 45px
+                            .bg-danger
+                                height: 45px
+                                width: 420px
+                                border: none
+                                border-radius: 0.5rem
+                            .bg-primary
+                                height: 45px
+                                width: 420px
+                                border: none
+                                border-radius: 0.5rem
+                        #part2
+                            justify-content: start
+                            align-items: center
+                            hr
+                                width: 90%
+                                height: 1px
+                                background-color: #F3F3F3
+                            .row
+                                .col-6
+                                    .a
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 230px
+                                    .b
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 230px
+                                    .c
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 230px
+                                    .d
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 230px
+                            input
+                                border: #F3F3F3 solid 2px
+                                height: 45px
+                                width: 490px
+                            .bg-info
+                                width: 230px
+                                height: 45px
+                                border: none
+                                margin-left: 25px
+                                margin-right: auto
+                                margin-bottom: 100px
+
+                                   
+
+                            
+
+                            
+                            
+                            
+                            
+
+       
+       
+    .section2
+        
+        .row
+            margin-left: auto
+            margin-right: auto
+        
+            #img1
+                
+                    div
+                        width: 98%
+                        // height: 280px
+                        // background-image: url("../../public/img/services/service-1.jpg")
+                        img
+                            max-width: 100%
+                            height: auto
+                            position: relative
+                        h1
+                            position: absolute
+                            font-size: 3rem
+                        hr
+                            top: 60%
+                            background-color: white
+                            width: 70%
+                            height: 4px
+                            position: absolute
+            #img2
+                div
+                    width: 98%
+                    height: 280px
+                    
+                    
+                    img
+                        max-width: 100%
+                    h1
+                        position: absolute
+                        font-size: 3rem
+                    hr
+                        top: 60%
+                        background-color: white
+                        width: 70%
+                        height: 4px
+                        position: absolute
+                
+
+            #img3
+                div
+                    width: 98%
+                    height: 280px
+                    img
+                        max-width: 100%
+                    h1
+                        position: absolute
+                        font-size: 3rem
+                    hr
+                        top: 60%
+                        background-color: white
+                        width: 70%
+                        height: 4px
+                        position: absolute
+                    
+                    
+                    
+    .section3
+        padding-left: 15%
+        padding-right: 15%
+        .row
+            h2
+                font-family: "Poppins-Bold"
+        .row-1
+            .col-4
+                a
+                    text-decoration: none
+                    div
+                        width: 98%
+                        .magie
+                            position: relative
+                       
+                            img
+                                max-width: 100%
+                                transition: all 2s
+
+                            &:hover
+
+
+                                &::before
+                                    font-family: "Font Awesome 5 Free"
+                                    content: "\f06e" " View Details"
+                                    font-weight: 900
+                                    position: absolute
+                                    height: 0
+                                    background-color: black
+                                    color: white
+                                    display: flex
+                                    align-items: center
+                                    justify-content: center
+                                    bottom: 0
+                                    animation: magie 0.5s 
+                                    animation-fill-mode: forwards
+                                    max-width: 50%
+                                &::after
+                                    font-family: "Font Awesome 5 Free"
+                                    content: "\f291" "Add to cart"
+                                    font-weight: 900
+                                    position: absolute
+                                    display: flex
+                                    align-items: center
+                                    justify-content: center
+                                    height: 0
+                                    background-color: #DD4545
+                                    color: white
+                                    bottom: 0
+                                    animation: magie 0.5s 
+                                    animation-fill-mode: forwards
+                                    max-width: 50%
+                                    left: 50%
+                                
+                            
+                                
+                           
+                        .banane
+                            position: absolute
+                            margin-top: 125px
+                            justify-content: center
+                            display: none
+                            
+                            
+                            
+                
+                            
+                            .dark
+                                background-color: black
+                                width: 166.5px
+                                border: none
+                                height: 50px
+                                
+                                
+                                
+                            .red
+                                background-color: #DD4545
+                                width: 166.5px
+                                border: none
+                                height: 50px
+                        
+                        
+                                
+                        
+
+                                
+                                
+                                
+                        span
+                            font-family: "Poppins-Bold"
+                            font-size: 15px
+                            
+                        .row
+                            
+                            .col-6
+                                button
+                                    height: 65px
+                                    width: 65px
+                                    border: none
+                                    border-radius: 50%
+                                    
+                                .row
+                                    
+                                    del
+                                        color: #6C757D
+                                        
+                                        span
+                                            font-size: 15px
+                                            
+                                    span
+                                        font-size: 15px
+            
+                
+    .section4
+        background-image: url("../../public/img/cta-bg.jpg")
+        height: 1000px
+        h1
+            font-size: 65px
+        button
+            width: 200px
+            height: 50px
+            border: none
+            border-radius: 7px
+    .section5
+        overflow: hidden
+        display: flex
+        justify-content: center
+        padding-top: 150px
+        padding-bottom: 100px
+        padding-right: 15%
+        padding-left: 15%
+        .thumbnail-slider
+            width: 100%
+            float: left
+            overflow: hidden
+            
+            
+            .thumbnail-container
+                width: 100%
+                float: left
+                transition: margin 1s ease
+                .item
+                    width: auto
+                    text-align: center
+                    font-size: 50px
+                    color: #ffffff
+                    float: left
+                    img
+                        max-width: 100%
+                    .text-capitalize
+                        font-size: 15px
+                        color: black
+                        font-family: "Poppins-Bold"
+                    .text-danger
+                        font-size: 15px
+                        font-family: "Poppins-Bold"
+                    .row
+                        width: 100%
+                        .col-6
+                            display: flex
+                            justify-content: center
+                            button
+                                height: 70px
+                                width: 70px
+                                border: none
+                                border-radius: 50%
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                span
+                                    font-size: 15px
+                            .text-capitalize
+                                font-size: 15px
+                            .row
+                                del
+                                    font-size: 15px
+                                    font-family: "Poppins-Bold"
+                            
+
+                       
+                    
+                    
+                .controls
+                    width: 100%
+                    float: left
+                    padding: 15px
+                    ul
+                        display: block
+                        text-align: center
+                        padding: 0
+                        margin: 0
+                        list-style: none
+                        li
+                            height: 35px
+                            width: 35px
+                            border: 1px solid #c3c3c3
+                            margin: 4px
+                            display: inline-block
+                            line-height: 33px
+                        
+                        
+    
+    .section6
+        .row
+            margin-right: auto
+            margin-left: auto
+            .col-4
+                // height: 250px
+                a
+                    text-decoration: none
+                    div
+                        height: 450px
+                        background-color: #F3F2F3
+                        
+                        i
+                            font-size: 40px
+                            color: #343A40
+                        h3
+                            color: #343A40
+                        p
+                            color: #6C757D
+                        button
+                            width: 150px
+                            height: 50px
+                            border: none
+                            background-color: #343A40
+                            border-radius: 7px
+                            span
+                                color: white
+            .col-4:hover
+                a
+                    text-decoration: none
+                    div
+                        background-color: #DD4545
+                        
+                        i
+                            color: white
+                        h3
+                            color: white
+                        p
+                            color: white
+                        button
+                            width: 150px
+                            height: 50px
+                            border: none
+                            background-color: white
+                            border-radius: 7px
+                            span
+                                color: #343A40
+    .footer1
+        background-color: #343A40
+        .footer
+            .col-4
+                .row
+                    button
+                        background: 0
+                        border: solid #6C757D 1px
+                        border-radius: 7px
+    .footer2
+        background-color: black
+        .footer
+            #end
+                height: 100px
+
+
+
+.sticky
+  position: fixed 
+  width: 100%
+  top:0
+  z-index:1
+
+ 
+*
+    box-sizing: border-box
+     
+                
+.active
+    background-color: #DD4545
+@keyframes magie
+    0%
+        width: 100%
+        height: 0%
+    100%
+        width: 100%
+        height: 30%
+
+@media (max-width: 992px)
+    header
+        #navbar
+            .collapse
+                ul
+                    #emporium2
+                        margin-bottom: 48px
+    .section1
+        .container
+            .col-7
+                order: 2
+                align-items: center
+                p
+                    text-align: center
+            .col-5
+                order: 1
+            .col-12
+                #formulaire
+                    height: 740px
+                    width: 70%
+                    margin-top: 200px
+                    .row
+                        flex-direction: column
+                        justify-content: center
+                        align-items: center
+                        a
+                            
+                            i
+                                color: #F3F3F3
+                                font-size: 30px
+                                width: 100%
+                        #part1
+                            justify-content: center
+                            align-items: center
+                            border: none
+                            width: 100%
+                            margin-bottom: 0px
+
+                            hr
+                                width: 90%
+                                height: 1px
+                                background-color: #F3F3F3
+                                
+                               
+                            input
+                                width: 70%
+                                height: 45px
+                                border: #F3F3F3 solid 2px
+                            .bg-info
+                                width: 70%
+                                margin-left: auto
+                                margin-right: auto
+                                height: 45px
+                            .bg-danger
+                                height: 45px
+                                width: 70%
+                                border: none
+                                border-radius: 0.5rem
+                            .bg-primary
+                                height: 45px
+                                width: 70%
+                                border: none
+                                border-radius: 0.5rem
+                        #part2
+                            justify-content: start
+                            align-items: center
+                            hr
+                                width: 90%
+                                height: 1px
+                                background-color: #F3F3F3
+                            .row
+                                width: 100%
+                            
+                                width: 90%
+    
+                                .col-6
+                                    display: flex
+                                    justify-content: center
+                                    .a
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 90%
+                                        margin-top: 15px
+                                    .b
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 90%
+                                    .c
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 90%
+                                        margin-bottom: 15px
+                                        
+                                    .d
+                                        border: #F3F3F3 solid 2px
+                                        height: 45px
+                                        width: 90%
+                            input
+                                border: #F3F3F3 solid 2px
+                                height: 45px
+                                width: 77%
+                            .bg-info
+                                width: 90%
+                                height: 45px
+                                border: none
+                                margin-right: 0
+                                margin-left: 0
+                                margin-bottom: 0px
+    .section3
+        
+        
+                                
+    .section5
+        padding-left: 10%
+        padding-right: 10%
+        .section6
+            .row
+                .col-4
+                    height: 300px
