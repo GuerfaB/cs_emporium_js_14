@@ -340,7 +340,7 @@ window.addEventListener('scroll', () => {
     navbar.style.zIndex ="1"
     emporiumTitre.setAttribute("class", "text-lowercase mb-5 d-none")
     navbar.style.paddingBottom ="25px"
-    emporiumTitre2.setAttribute("class", "d-flex")
+    emporiumTitre2.setAttribute("class", "d-flex px-0")
     
 
 
@@ -350,7 +350,7 @@ window.addEventListener('scroll', () => {
     navbar.style.position = "static"
     emporiumTitre.setAttribute("class", "text-lowercase mb-5")
     navbar.style.paddingBottom ="0px"
-    emporiumTitre2.setAttribute("class", "d-none")
+    emporiumTitre2.setAttribute("class", "d-none px-0")
   }
 
 })
